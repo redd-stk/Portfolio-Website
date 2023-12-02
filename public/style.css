@@ -4,12 +4,15 @@
   box-sizing: border-box;
   text-decoration: none;
   background: transparent;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 body {
-  background: rgb(30, 30, 30);
   color: white;
   overflow: hidden;
   overflow-y: scroll;
+  background-image: url("./background/background.jpg"); /* Replace with the path to your image file */
+  background-size: cover; /* This will make sure the background image covers the entire body */
+  background-repeat: no-repeat; /* Prevent the background image from repeating */
+  background-attachment: fixed;
 }
