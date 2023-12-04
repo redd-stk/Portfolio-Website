@@ -19,7 +19,7 @@
 .introContent {
   height: 100vh;
   width: 100vw;
-  padding: 2rem;
+  padding: 1.5rem;
   font-size: 3rem;
   font-weight: 700;
   display: flex;
@@ -43,7 +43,7 @@
 
 .btn {
   background: white;
-  margin: 1rem 0;
+  margin: 2rem 0;
   padding: 0.75rem 1.5rem;
   border: none;
   border-radius: 2rem;
@@ -55,9 +55,18 @@
   height: 1rem;
 }
 
-@media screen and (max-width: 500px) {
+.descrParaLast{
+  padding-bottom: 1rem;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 720px) {
   .bg {
-    right: -30vw;
+    right: -25vw;
+  }
+  .descrParaLast{
+    font-size: 0.9rem;
   }
   /* .introContent {
     font-size: 5vw;

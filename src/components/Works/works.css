@@ -66,6 +66,21 @@
   font-size: 0.7rem;
 }
 
+.moreProjects{
+  margin-top: 1rem;
+  padding: 0.5rem 3rem;
+  border: none;
+  border-radius: 0.7rem;
+  font-size: 0.9rem;
+  /* background: rgb(211, 210, 210); */
+  background: yellowgreen;
+  
+}
+
+.moreProjects:active {
+  transform: scale(0.9);
+}
+
 @media screen and (max-width: 585px) {
   .worksImg {
     height: 30vh;
@@ -86,6 +101,11 @@
   }
 
   .worksBtn {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .moreProjects{
     margin-left: auto;
     margin-right: auto;
   }

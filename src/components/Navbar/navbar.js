@@ -47,10 +47,10 @@ const Navbar = () => {
         </Link>
         <Link
           activeClass="active"
-          to="contacts"
+          to="experience"
           spy={true}
           smooth={true}
-          offset={-50}
+          offset={-20}
           duration={500}
           className="desktopMenuListItem"
         >
@@ -114,7 +114,7 @@ const Navbar = () => {
         </Link>
         <Link
           activeClass="active"
-          to="works"
+          to="experience"
           spy={true}
           smooth={true}
           offset={-50}
