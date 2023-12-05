@@ -67,7 +67,6 @@ const Experience = () => {
               teams contributes to the success of each project I undertake.
             </p>
           </div>
-
         </div>
       </div>
     </div>

@@ -9,7 +9,7 @@
 
 .bg {
   position: absolute;
-  top: -4rem;
+  top: 0rem;
   right: 0;
   z-index: -1;
   object-fit: cover;
@@ -68,10 +68,10 @@
   .descrParaLast{
     font-size: 0.9rem;
   }
-  /* .introContent {
-    font-size: 5vw;
+  .introContent {
+    font-size: 4vw;
   }
-  .hello{
-    font-size: 3.5vw
-  } */
+  .introText{
+    font-size: 8vw
+  }
 }

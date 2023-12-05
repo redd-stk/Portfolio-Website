@@ -16,7 +16,7 @@ const Intro = () => {
           Software Developer
         </span>
         <p className="introPara">
-          I am a skilled Software Developer with experience in creating visually{" "}
+          I am a skilled developer with experience in creating visually{" "}
           <br /> appealing and user-friendly softwares and applications. I
           combine creativity and technical skills to bring ideas to <br />
           life. Explore my portfolio to witness the synergy of my skills in
